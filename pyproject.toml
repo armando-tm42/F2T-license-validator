@@ -1,0 +1,27 @@
+[project]
+name = "license-validator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "armando miguel tapia meza", email = "armandotm42@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "cryptography>=50.0.2",
+    "pyqt6>=6.5.0",
+    "sqlalchemy>=2.0.0",
+    "bcrypt>=4.0.0",
+    "python-dotenv>=1.0.0",
+    "infisicalsdk>=0.3.0",
+    "psycopg2-binary>=2.9.9",
+    "alembic>=1.13.0",
+    "pillow>=10.0.0",
+]
+
+[project.scripts]
+license-validator = "license_validator.app:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
