@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛡️ F2T Administrador de licencias
 
 Aplicación de escritorio desarrollada con **PyQt6**, **SQLAlchemy** y **PostgreSQL en la Nube (Aiven Cloud)** para generar, administrar, validar y exportar licencias criptográficas asimétricas (RSA-2048) para asesores expertos (EAs) e indicadores en **MetaTrader 5 (MQL5)**.
@@ -124,3 +125,7 @@ string data_path = TerminalInfoString(TERMINAL_DATA_PATH);
 
 El token generado contiene este campo y el validador rechaza cualquier licencia que no incluya o no coincida con el hash de la terminal.
 
+=======
+# F2T-license-validator
+Aplicacion de escritorio para validar y emitir licensias de bot de trading
+>>>>>>> 3afe5d6dda6300f1fe0bf75643c0b6f2a82f4e0e
